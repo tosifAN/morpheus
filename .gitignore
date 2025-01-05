@@ -1,0 +1,25 @@
+env
+UI/node_modules/
+
+
+node_modules/
+dist/
+.env
+npm-debug.log*
+
+
+*.pyc
+__pycache__/
+env/
+
+
+# VSCode
+.vscode/
+# IntelliJ IDEA
+.idea/
+# Sublime Text
+*.sublime-workspace
+
+
+build/
+*.log
