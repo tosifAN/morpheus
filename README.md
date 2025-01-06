@@ -6,7 +6,7 @@ This project is a Form Builder application that allows admins to create forms, a
 This repository includes both the frontend (React with Tailwind CSS) and the backend (Django with SQLite database) of the application.
 
 
-[![Application Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/o3mkl3ReGSM)
+[![Application Demo](https://github.com/tosifAN/morpheus/blob/main/img/Screenshot%202025-01-05%20235629.png)](https://youtu.be/o3mkl3ReGSM)
 
 
 ## Features
@@ -34,38 +34,6 @@ This repository includes both the frontend (React with Tailwind CSS) and the bac
 - **Tailwind CSS**: A utility-first CSS framework for rapidly building modern UIs.
 - **Axios**: A promise-based HTTP client for making requests to the API.
 
-## Project Structure
-
-src/
-├── components/
-│   ├── Admin/
-│   │   ├── FormBuilder.js
-│   │   ├── FormList.js
-│   │   ├── Analytics
-│   │  
-│   │     
-│   │     
-│   │   
-│   │   
-│   ├── EndUser/
-│   │   ├── FormResponse.js
-│   │   ├── ThankYou.js
-│   │   
-│   └── Shared/
-│       ├── Navbar.js
-│       ├── Footer.js
-│       └── Loader.js
-├── pages/
-│   ├── AdminDashboard.js
-│   ├── SubmitForm.js
-│   └── AnalyticsPage.js
-|
-├── App.js
-├── index.js
-└── styles/
-    └── main.css
-
-
 
 ### Backend Directory:
 - Contains Django application and API views for handling forms, responses, and analytics.
@@ -83,7 +51,7 @@ src/
    git clone https://github.com/tosifAN/morpheus.git
 
 2. Set up a Python virtual environment (recommended):
-  ```bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
@@ -126,7 +94,7 @@ Ensure both servers (Django and React) are running simultaneously during develop
 ## API Documentation
 
 You can access the API documentation via Swagger UI at the following URL when the backend is running:
-    ```bash
+```bash
     http://127.0.0.1:8000/swagger/
 
 
